@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:first_wtf_app/pages/edit_profile_page.dart';
 
+//edited List title for personal information
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
 
