@@ -3,6 +3,7 @@ import 'package:first_wtf_app/pages/notifications_page.dart';
 import 'package:first_wtf_app/provider/user_notifier.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:first_wtf_app/pages/edit_profile_page.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
