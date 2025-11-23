@@ -87,7 +87,13 @@ class _ProfilePageState extends State<ProfilePage> {
         ListTile(
           title: Text("Personal Information", style: TextStyle(fontSize: 16)),
           trailing: Icon(Icons.arrow_forward_ios_outlined, size: 16),
+          onTap: () {
+            Navigator.of(
+              context,
+            ).push(MaterialPageRoute(builder: (context) => EditProfilePage()));
+          },
         ),
+
         Divider(),
         ListTile(
           title: Text("Payment Mwthods", style: TextStyle(fontSize: 16)),
